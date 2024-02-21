@@ -1,0 +1,46 @@
+<Playlist Version="2.0">
+  <Rule Name="Includes" Match="Any">
+    <Rule Match="All">
+      <Property Name="Solution" />
+      <Rule Match="Any">
+        <Rule Match="All">
+          <Property Name="Project" Value="SafetynetApplication" />
+          <Rule Match="Any">
+            <Rule Match="All">
+              <Property Name="Namespace" Value="SafetynetApplication.SafetynetTests" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="ContentFilterTest" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+			<order=1>
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="SafetynetApplication.SafetynetTests.ContentFilterTest.Contentfiltering" />
+				</order=1>
+                     // <Rule Match="Any">
+			
+                        <Property Name="DisplayName" Value="Contentfiltering" />
+		
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+                <Rule Match="All">
+                  <Property Name="Class" Value="AutologoutTest" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+			<order=2>
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="SafetynetApplication.SafetynetTests.AutologoutTest.JAutolog" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="JAutolog" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+          </Rule>
+        </Rule>
+      </Rule>
+    </Rule>
+  </Rule>
+</Playlist>
